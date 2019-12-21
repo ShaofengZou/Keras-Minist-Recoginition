@@ -1,0 +1,5 @@
+[INFO] 2019-12-10 23:10:49 | main.py | <module> | 54 : Start up Script
+[INFO] 2019-12-10 23:10:49 | main.py | <module> | 63 : Namespace(batch_size=64, block_filter_num=32, block_kernel_size=5, block_num=2, class_number=2, epochs=30, gpu_id=1, history_file='training_history.json', initializers='orthogonal', is_batch_normalization=False, script_id='Exp_Orthogonal')
+[INFO] 2019-12-10 23:10:56 | models.py | get_CNN_model | 55 : None
+[INFO] 2019-12-10 23:17:34 | main.py | <module> | 97 : Confusion matrix
+[INFO] 2019-12-10 23:17:35 | main.py | <module> | 104 : Accuarcy on val dataset is: 0.9931
