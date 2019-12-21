@@ -68,8 +68,8 @@ you select the specific gpu with gpu_id
    	* 使用RMSprop作为优化器
     * 设计回调函数
       	* ReduceLROnPlateau
-        	  	* ModelCheckpoint
-        	  	* EarlyStopping
+       * ModelCheckpoint
+       * EarlyStopping
 
 3. 数据集增强
 
