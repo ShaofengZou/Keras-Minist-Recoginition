@@ -18,13 +18,13 @@
 
 Input -> [ Conv2D -> BN -> Relu -> Conv2D -> BN -> Relu -> Maxpooling2D -> Dropout ] * 2  -> Flatten -> Dense -> Dropout -> Output
 
-**Accuracy on validation set: **99.43%
+**Accuracy on validation set:**99.43%
 
 **Accuracy on test set:** 99.614%
 
-**最佳准确率(Kaggle平台给出):**99.614%
+**最佳准确率(Kaggle平台给出):** 99.614%
 
-**提交总次数:**1
+**提交总次数:** 1
 
 
 
@@ -42,7 +42,7 @@ you select the specific gpu with gpu_id
 
 
 
-**If you like this project, welcome to fork and star  ^_^ **
+**If you like this project, welcome to fork and star  ^_^** 
 
 
 
