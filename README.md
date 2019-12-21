@@ -18,7 +18,7 @@
 
 Input -> [ Conv2D -> BN -> Relu -> Conv2D -> BN -> Relu -> Maxpooling2D -> Dropout ] * 2  -> Flatten -> Dense -> Dropout -> Output
 
-**Accuracy on validation set:**99.43%
+**Accuracy on validation set:** 99.43%
 
 **Accuracy on test set:** 99.614%
 
@@ -81,7 +81,9 @@ you select the specific gpu with gpu_id
 
 1. 训练时损失和准确率变化曲线
 
-   ![history-Exp_test](readme\history-Exp_test.png)
+   <img src="readme\history-Exp_test.png" alt="cm-Exp_test"  />
+
+   
 
 2. 在验证集上的准确率：0.9943
 
@@ -138,43 +140,43 @@ Input -> [ Conv2D -> Relu -> Conv2D -> Relu -> Maxpooling2D -> Dropout ] * 2  ->
 
 * baseline
 
-  ![history-Exp_Base](figs\history-Exp_Base.png)
+  <img src="readme\history-Exp_test.png" alt="cm-Exp_test"  />
 
 * block number - 1
 
-![history-Exp_BlockNum1](figs\history-Exp_BlockNum1.png)
+<img src="figs\history-Exp_BlockNum1.png" alt="cm-Exp_BlockNum1"  />
 
 * block number - 3
 
-  ![history-Exp_BlockNum3](figs\history-Exp_BlockNum3.png)
+  <img src="figs\history-Exp_BlockNum3.png" alt="cm-Exp_BlockNum3"  />
 
 * filter number - 16
 
-  ![history-Exp_FilterNum16](figs\history-Exp_FilterNum16.png)
+  <img src="figs\history-Exp_FilterNum16.png" alt="cm-Exp_FilterNum16"  />
 
 * filter number - 64
 
-  ![history-Exp_FilterNum64](figs\history-Exp_FilterNum64.png)
+  <img src="figs\history-Exp_FilterNum64.png" alt="cm-Exp_FilterNum64"  />
 
 * kernel size - 3
 
-  ![history-Exp_KernelSize3](figs\history-Exp_KernelSize3.png)
+  <img src="figs\history-Exp_KernelSize3.png" alt="cm-Exp_KernelSize3"  />
 
 * kernel size - 7
 
-  ![history-Exp_KernelSize7](figs\history-Exp_KernelSize7.png)
+  <img src="figs\history-Exp_KernelSize7.png" alt="cm-Exp_KernelSize7"  />
 
 * initializers - random uniform
 
-  ![history-Exp_RandomNniform](figs\history-Exp_RandomNniform.png)
+  <img src="figs\history-Exp_RandomNniform.png" alt="cm-Exp_RandomNniform"  />
 
 * initializers - orthogonal
 
-  ![history-Exp_Orthogonal](figs\history-Exp_Orthogonal.png)
+  <img src="figs\history-Exp_Orthogonal.png" alt="cm-Exp_Orthogonal"  />
 
 * batch normalization - yes
 
-  ![history-Exp_BatchNormalization](figs\history-Exp_BatchNormalization.png)
+  <img src="figs\history-Exp_BatchNormalization.png" alt="cm-Exp_BatchNormalization"  />
 
 #### iii. 对比实验总结
 
